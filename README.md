@@ -1,145 +1,183 @@
-# Whistle Frontend Assessment
+# Whistle Assessment
 
-This project is a frontend implementation built as part of the Whistle assessment. It follows the provided Figma design and focuses on creating a responsive, pixel-perfect user interface using modern frontend development practices.
+This project was developed as part of the Whistle Frontend Assessment. The goal was to recreate the provided Figma design using React functional components, implement responsive layouts, and integrate dynamic data from a public API.
 
 ---
 
 ## 🚀 Live Demo
 
+**Vercel Deployment:**
 https://whistle-assessment.vercel.app/
 
 ---
 
 ## 📁 GitHub Repository
 
+**Repository:**
 https://github.com/varunkr688/whistle-assessment/tree/main
 
 ---
 
 ## 🛠 Tech Stack
 
+* React.js
+* JavaScript (ES6+)
 * HTML5
 * CSS3
-* JavaScript (ES6+)
-* React.js
 * Vite
-* Responsive Design (Flexbox / Grid)
+* React Hooks (`useState`, `useEffect`)
+* Responsive Design (Flexbox & Grid)
 
 ---
 
-## 📌 Sections Implemented
+## ✅ Task A – Figma Implementation
 
-The following sections were developed based on the Figma design:
+The assessment required recreating any **3 Figma frames** as React functional components.
 
-* ✅ Header
-* ✅ Hero Section
-* ✅ Lead Form Section
-* ✅ Clinic Banner Section
-* ✅ Why Whistle Section
-* ✅ FAQ Section
-* ✅ Footer Section
+I implemented the following sections from the provided Figma design:
+
+* Header
+* Hero Section
+* Lead Form Section
+* Clinic Banner Section
+* Why Whistle Section
+* FAQ Section
+* Footer Section
+
+### Implementation Highlights
+
+* Built using React Functional Components
+* Followed the Figma design for:
+
+  * Layout
+  * Spacing
+  * Typography
+  * Colors
+  * Component Structure
+* Used custom CSS (No UI libraries)
+* Responsive design for desktop and mobile devices
+* Component-based architecture
+
+This exceeds the requirement of implementing any 3 Figma frames.
 
 ---
 
-## 📱 Responsive Design
+## ✅ Task B – Dynamic Data Integration
 
-The application is fully responsive and optimized for:
+The project includes dynamic content rendering using a public API.
 
-* Desktop screens
-* Tablet screens
-* Mobile devices
-
-### Important Note
-
-For the most accurate mobile experience matching the provided Figma design, please view the application at **360px width** in your browser's responsive mode. The mobile layout has been designed and tested specifically against the 360px Figma frame to ensure pixel-perfect alignment.
-
----
-
-## ✅ Task B – Dynamic Data Implementation
-
-The **WhyWhistle** and **FAQ** sections use dynamic API-driven content.
-
-Implemented using:
+### Implemented Using
 
 * API Fetching
 * `useEffect`
 * `useState`
-* Loading State Handling
-* Error State Handling
+* Loading State
+* Error State
 
-API Source:
+### API Used
 
 * FakeStore API / DummyJSON
 
-This satisfies **Task B – Populate with Dynamic Data**.
+This satisfies the requirements of **Task B – Populate with Dynamic Data**.
 
 ---
 
-## ✅ Task 3 – Reusable Components & Rendering
+## ✅ Component Reusability
 
-The **WhyWhistle** section is implemented using:
+The Why Whistle section demonstrates reusable React development practices:
 
 * Static content stored in arrays
-* `map()` for rendering reusable cards
-* Reusable component structure
-* Hover effects for improved user experience
+* Rendering using `map()`
+* Reusable card components
+* Hover effects for improved user interaction
 
-This satisfies **Task 3 – Component-Based Rendering**.
+This satisfies the component rendering requirements of the assessment.
 
 ---
 
 ## 📌 Features
 
-* Pixel-perfect UI based on the provided Figma design
+* Pixel-perfect UI implementation based on Figma
 * Fully responsive desktop and mobile layouts
-* Reusable React components
+* Clean component structure
 * Dynamic API integration
 * Loading and error handling states
+* Responsive form design
 * Interactive hover effects
-* Clean and maintainable code structure
-* Modern React development practices
+* Reusable React components
+* Modern frontend development practices
+
+---
+
+## 📱 Responsive Design
+
+The application is responsive across:
+
+* Desktop Screens
+* Mobile Devices (360px)
+
+### Important Note
+
+For the most accurate mobile experience matching the provided Figma design, please use a viewport width of **360px** in your browser's responsive mode.
+
+The mobile layout was designed and tested specifically against the 360px Figma frame to achieve the closest possible match to the design.
 
 ---
 
 ## ⚠️ Challenges Faced
 
-During development, the primary challenges included:
+During development, the main challenges included:
 
-* Achieving pixel-perfect alignment across different screen sizes
-* Matching the Figma design precisely
-* Handling responsiveness for complex layouts
-* Maintaining spacing consistency across sections
-* Ensuring the production build matched the development build
+* Achieving pixel-perfect alignment with the Figma design
+* Managing responsive layouts across different screen sizes
+* Maintaining consistent spacing and typography
+* Ensuring the production build matched the development environment
+* Handling mobile responsiveness for form and content sections
 
 ---
 
 ## 💡 Future Improvements
 
-Given additional time, I would:
+If given additional time, I would:
 
 * Improve CSS modularity and scalability
-* Add smooth animations and transitions
-* Further optimize responsiveness for additional breakpoints
-* Introduce component-level styling architecture
-* Improve accessibility and form validation
+* Add smoother UI animations and transitions
+* Enhance accessibility features
+* Optimize component abstraction further
+* Add form validation and user feedback mechanisms
 
 ---
 
 ## 📂 Project Setup
 
-To run this project locally:
+Clone the repository:
 
 ```bash
 git clone https://github.com/varunkr688/whistle-assessment.git
 cd whistle-assessment
+```
+
+Install dependencies:
+
+```bash
 npm install
+```
+
+Run the development server:
+
+```bash
 npm run dev
 ```
 
-### Production Build
+Build for production:
 
 ```bash
 npm run build
+```
+
+Preview the production build:
+
+```bash
 npm run preview
 ```
 
@@ -147,4 +185,8 @@ npm run preview
 
 ## 👨‍💻 Developer
 
-Developed by Varun Kumar as part of the Whistle Frontend Assessment.
+**Varun Kumar**
+
+Frontend Developer | React Developer
+
+Developed as part of the Whistle Frontend Assessment.
