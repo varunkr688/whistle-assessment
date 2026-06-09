@@ -1,0 +1,159 @@
+.clinic{
+    height: 326px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.small{
+    height: 198px;
+    width: 1240px;
+    background-color: #F0F9FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cil{
+    width: 1040px;
+    height: 118px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pp{
+    width: 810.14px;
+    height: 84px;
+
+    font-size: 28px;
+    font-weight: 600;
+}
+.poster{
+    height: 56px;
+    width: 150px;
+    background-color: #4D2C19;
+    margin-bottom: 20px;
+}
+.pa{
+    color: #E9811F;
+    text-align: center;
+    font-size: 37px;
+}
+.pb{
+    color: white;
+    text-align: center;
+    font-size: 8px;
+    letter-spacing: 3px;
+    margin-bottom: 5px;
+    
+}
+.find{
+    width: 125px;
+    height: 26px;
+    font-size: 20px;
+    color: #8F62D4;
+    margin-left: 890px;
+}
+#clinic-select{
+    background-color: transparent;
+    border: none;
+    color: #8F62D4;
+    font-size: 20px;
+}
+.linear{
+    height: 56px;
+  
+    background-image: linear-gradient(#CFF0C4, #C7E0F2);
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+p{
+    font-weight: 700;
+    margin-right: 100px;
+    white-space: nowrap;
+}
+
+@media (max-width: 360px) {
+
+  .clinic {
+    width: 360px;
+    height: 168px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .small {
+    width: 360px;
+    height: 140px;
+    background-color: #F0F9FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+  .cil {
+    width: 360px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .pp {
+    width: 360px;
+    font-size: 12px;
+    padding-left: 20px;
+    font-weight: 600;
+    text-align: center;
+    height: auto;
+    margin-top: 30px;
+  }
+
+  .poster {
+    width: 90px;
+    height: 40px;
+    margin-bottom: 0;
+    margin-right: 200px;
+    margin-top: 10px;
+  }
+
+  .pa {
+    font-size: 20px;
+  }
+
+  .pb {
+    font-size: 6px;
+    letter-spacing: 2px;
+  }
+
+  .find {
+    width: auto;
+    font-size: 12px;
+    margin-left: 0;
+    text-align: center;
+    margin-left: 220px;
+  }
+
+  #clinic-select {
+    font-size: 12px;
+  }
+
+  .linear {
+    height: 40px;             
+    display: flex;
+    align-items: center;
+    overflow: hidden;        
+    white-space: nowrap;    
+  }
+
+  .linear p {
+    font-size: 15px;         
+    margin-right: 40px;     
+    white-space: nowrap;      
+    flex-shrink: 0;           
+  }
+}

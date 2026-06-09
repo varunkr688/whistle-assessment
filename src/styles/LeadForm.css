@@ -1,0 +1,154 @@
+.form{
+    height: 324px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.one{
+    height: 68px;
+    width: 1040px;
+}
+.two{
+    height: 98px;
+    width: 1040px;
+}
+.doyou{
+    text-align: center;
+}
+.radio-group {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    padding-top: 17px;
+    font-size: 25px;
+    font-size: 1000;
+  }
+  input[type="radio"] {
+    width: 1.5em;
+    height: 1.5em;
+}
+
+.first{
+    height: 58px;
+    width: 1040px;
+}
+.lead-form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  justify-content: space-evenly;
+}
+.name{
+    height: 58px;
+    width: 320px;
+    margin-right: 30px;
+    border-color: silver;
+    border-radius: 12px;
+}
+.phone{
+    height: 58px;
+    width: 320px;
+    border-radius: 12px;
+}
+.submit-btn{
+    height: 58px;
+    width: 320px; 
+    margin-left: 30px;
+    border-radius: 12px;
+    background-color: #8F62D4;
+    color: white;
+    font-size: 18px;
+}
+.lead-form input::placeholder {
+  font-size: 17px;
+  font-family: Arial, sans-serif;
+  color: #888;
+  padding-left: 10px;
+}
+.second{
+    display: flex;
+    padding-top: 15px;
+}
+.hereby{
+    padding-left: 8px;
+    font-size: small;
+}
+
+@media (max-width: 360px) {
+
+  .form {
+    height: auto;
+    padding: 30px 16px;
+  }
+
+  .one {
+    width: 100%;
+    height: auto;
+  }
+
+  .doyou {
+    font-size: 16px;
+  }
+
+  .radio-group {
+    gap: 30px;
+    font-size: 18px;
+    padding-top: 15px;
+  }
+
+  input[type="radio"] {
+    width: 18px;
+    height: 18px;
+  }
+
+  .two {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+
+  .first {
+    width: 100%;
+    height: auto;
+  }
+
+  .lead-form {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .name,
+  .phone,
+  .submit-btn {
+    width: 328px;
+    height: 52px;
+    margin: 0;
+  }
+
+  .lead-form input::placeholder {
+    font-size: 15px;
+  }
+
+  .submit-btn {
+    font-size: 16px;
+    margin-top: 40px;
+  }
+
+  .second {
+    align-items: flex-start;
+    padding-top: 15px;
+  }
+
+  .second input[type="checkbox"] {
+    margin-top: 3px;
+  }
+
+  .hereby {
+    font-size: 12px;
+    line-height: 1.5;
+    padding-left: 8px;
+    
+  }
+}
