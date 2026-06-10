@@ -40,7 +40,7 @@ span{
     margin-left: 200px;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 426px) {
 
   .hero {
     position: relative;

@@ -63,7 +63,7 @@
   font-size: 14px;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 426px) {
 
   .footer {
     background-color: #181C1C;
